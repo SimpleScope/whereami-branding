@@ -47,6 +47,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
     <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
     <script type="text/javascript">
       !(function (o, c) {
@@ -72,7 +73,7 @@
               aria-current="page"
               class="w-inline-block w--current"
             >
-              <div class="logo"><span class="emoji mr-md">🌎</span>WhereAmI</div>
+              <div class="logo"><img src="images/favicon.png" alt="Logo">WhereAmI</div>
             </a>
           </div>
           <div class="column align-right">
@@ -188,6 +189,55 @@
                 alt=""
                 class="icon mt-sm mr-md"
               />
+              <p class="text-lg">What #day am I currently in?</p>
+            </div>
+            <div class="row mt-lg">
+              <img
+                src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+                data-feather="check"
+                alt=""
+                class="icon mt-sm mr-md"
+              />
+              <p class="text-lg">When is my next rest day?</p>
+            </div>
+          </div>
+          <div class="column align-left p-2xl">
+            <img
+              src="images/calendar.png"
+              alt=""
+              class="feature-card"
+            />
+          </div>
+        </div>
+        <div class="row reverse items-center v-t">
+          <div class="column align-left p-2xl">
+            <h6 class="max-w-lg">Sharing progress</h6>
+            <h2 class="max-w-lg">
+              Prepare and share updates right from the app
+            </h2>
+            <p class="text-lg">
+              Share updates to twitter to keep yourself accountable for your journey
+            </p>
+          </div>
+          <div class="column align-right p-2xl">
+            <img
+                    src="images/share.png"
+                    alt=""
+                    class="feature-card"
+            />
+          </div>
+        </div>
+        <div class="row items-center v-t">
+          <div class="column align-left p-2xl">
+            <h6 class="max-w-lg">Reports</h6>
+            <h2 class="max-w-lg">Analytics on your learning</h2>
+            <div class="row mt-lg">
+              <img
+                src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+                data-feather="check"
+                alt=""
+                class="icon mt-sm mr-md"
+              />
               <p class="text-lg">When is my longest streak?</p>
             </div>
             <div class="row mt-lg">
@@ -206,12 +256,12 @@
                 alt=""
                 class="icon mt-sm mr-md"
               />
-              <p class="text-lg">Less time managing progres, more time learning</p>
+              <p class="text-lg">What are the primary reasons that I skipped?</p>
             </div>
           </div>
-          <div class="column align-center p-2xl">
+          <div class="column align-left p-2xl">
             <img
-              src="images/calendar.png"
+              src="images/analytics.png"
               alt=""
               class="feature-card"
             />
@@ -219,59 +269,15 @@
         </div>
         <div class="row reverse items-center v-t">
           <div class="column align-left p-2xl">
-            <h6 class="max-w-lg">Sharing progress</h6>
-            <h2 class="max-w-lg">
-              Prepare and share updates right from the app
-            </h2>
+            <h6 class="max-w-lg">Nudge</h6>
+            <h2 class="max-w-lg">Emails to keep you on track</h2>
             <p class="text-lg">
-              Don’t talk about the feature itself. Your leads don’t care about
-              it, only what it does for them. So talk about the benefits it
-              provides.
+              If you're distracted and couldn't progress, the app will start sending you reminders.
             </p>
           </div>
-          <div class="column align-center p-2xl">
+          <div class="column align-right p-2xl">
             <img
-                    src="images/share.png"
-                    alt=""
-                    class="feature-card"
-            />
-          </div>
-        </div>
-        <div class="row reverse items-center v-t">
-          <div class="column align-left p-2xl">
-            <h6 class="max-w-lg">#2 Feature</h6>
-            <h2 class="max-w-lg">Combat the top objection readers may have</h2>
-            <div class="row mt-lg">
-              <img
-                src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                data-feather="check"
-                alt=""
-                class="icon mt-sm mr-md"
-              />
-              <p class="text-lg">Explain how your product solves that</p>
-            </div>
-            <div class="row mt-lg">
-              <img
-                src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                data-feather="check"
-                alt=""
-                class="icon mt-sm mr-md"
-              />
-              <p class="text-lg">Use bullet points to break it up</p>
-            </div>
-            <div class="row mt-lg">
-              <img
-                src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                data-feather="check"
-                alt=""
-                class="icon mt-sm mr-md"
-              />
-              <p class="text-lg">Into short, easier chunks to read</p>
-            </div>
-          </div>
-          <div class="column align-center p-2xl">
-            <img
-              src="images/marginalia-online-shopping.png"
+              src="images/email.png"
               alt=""
               class="feature-card"
             />
@@ -279,21 +285,19 @@
         </div>
         <div class="row items-center v-t">
           <div class="column align-left p-2xl">
-            <h6 class="max-w-lg">#3 Feature</h6>
+            <h6 class="max-w-lg">Resources & Challenges</h6>
             <h2 class="max-w-lg">
-              What is unique about your product? Why does it matter?
+              Materials and Challenges for practicing
             </h2>
             <p class="text-lg">
-              Don’t talk about the feature itself. Your leads don’t care about
-              it, only what it does for them. So talk about the benefits it
-              provides.
+              Curated lists of resources and challenges created by the awesome community.
             </p>
           </div>
-          <div class="column align-center p-2xl">
+          <div class="column align-left p-2xl">
             <img
-              src="images/marginalia-order-complete.png"
-              alt=""
-              class="feature-card"
+                    src="images/resources.png"
+                    alt=""
+                    class="feature-card"
             />
           </div>
         </div>
@@ -304,44 +308,37 @@
         <div class="row items-center">
           <div class="column align-center">
             <h1 class="max-w-lg text-giga text-center text-white">
-              Remind them why they came. Get them to act!
+              Still not convinced?
             </h1>
-            <a href="#" class="button xl main white mt-lg w-button"
-              >Action Oriented Call to Action</a
-            >
+            <a href="#" class="button xl main white mt-lg w-button">Give it a try! Sign up</a>
             <div class="faded text-sm mt-md">
-              14 day free trial • No credit card required
+              You can wipe your data clean if you don't like the app after signing up
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="section pb-2xl-m">
-      <div class="container mt-2xl mb-2xl">
-        <div class="row v-l">
+      <div class="container mt-2xl mb-2xl hidden-footer">
+        <!--<div class="row v-l">
           <div class="column align-left">
             <div class="emoji lg">🌎</div>
-            <a href="#" class="u mt-lg">info@email.com</a>
+            <a href="mailto:ms.vignesh31@gmail.com" class="u mt-lg">ms.vignesh31@gmail.com</a>
             <div class="row mt-lg ml-md-n">
-              <a href="#" target="_blank" class="p-md w-inline-block"
-                ><img
+              <a href="https://twitter.com/shivenigma" target="_blank" class="p-md w-inline-block">
+                <img
                   src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
                   data-feather="twitter"
                   alt=""
-                  class="icon" /></a
-              ><a href="#" target="_blank" class="p-md w-inline-block"
-                ><img
-                  src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                  data-feather="instagram"
-                  alt=""
-                  class="icon" /></a
-              ><a href="#" target="_blank" class="p-md w-inline-block"
-                ><img
+                  class="icon" />
+              </a>
+              <a href="https://linkedin.com/in/shivenigma/" target="_blank" class="p-md w-inline-block">
+                <img
                   src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
                   data-feather="linkedin"
                   alt=""
-                  class="icon"
-              /></a>
+                  class="icon"/>
+              </a>
             </div>
           </div>
           <div class="column align-left">
@@ -393,19 +390,19 @@
               <a href="#" target="_blank">Download a copy as a .zip</a>
             </div>
           </div>
-        </div>
+        </div>-->
         <div class="border-t mt-xl">
           <div class="row mt-xl v-l">
             <div class="column align-left">
               <div class="muted text-sm">
-                © No copyright I guess? Do whatever you want with the site
+                © 2020 by <a href="https://vikky.dev" target="_blank">Vignesh.M</a>
               </div>
             </div>
             <div class="column align-right">
               <div class="row">
-                <div class="muted text-sm mr-lg">Dummy links:</div>
-                <div><a href="#">Privacy Policy</a></div>
-                <div><a href="#" class="ml-lg">Terms and Conditions</a></div>
+                <!--<div class="muted text-sm mr-lg">Dummy links:</div>-->
+                <div><a href="javascript:void(0)">Privacy Policy</a></div>
+                <div><a href="javascript:void(0)" class="ml-lg">Terms and Conditions</a></div>
               </div>
             </div>
           </div>
